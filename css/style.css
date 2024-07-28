@@ -1,0 +1,432 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:sans-serif;
+   
+    
+}
+nav
+{
+   position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    
+}
+.navbar
+{
+    display: flex;
+    gap: 42rem;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+   
+   
+   
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.logo h1{
+    color: blue;
+}
+.explore
+{
+    border: 1px solid blue;
+    height: 32px;
+    width: 110px;
+   text-align: center;
+   padding: 5px;
+   border-radius: 4px;
+   color: blue;
+   position: relative;
+  
+
+}
+.input
+{
+    display: flex;
+    border: 1px solid black;
+    height: 42px;
+    width: 420px;
+  align-items: center;
+  border-radius: 17px;
+  justify-content: space-between;
+  padding: 12px;
+}
+.input input{
+    outline: none;
+    border: none;
+}
+.input i
+{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+.explore a 
+{
+  text-decoration: none;
+  color: blue;
+ 
+}
+.languagesec
+{
+    display: flex;
+    gap: 18px;
+    margin-left: 292px;
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+}
+.lan{
+   display: flex;
+}
+.usersection
+{
+    display: flex;
+    align-items: center;
+   
+}
+.usersection p
+{
+    background-color: rgb(32, 32, 114);
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    width: 32px;
+    text-align: center;
+  
+    
+}
+/* menu */
+.navbarmenu
+{
+  padding: 2rem;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+ 
+ 
+}
+.navbarmenu a
+{
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+    
+   
+}
+hr{
+    margin-top: 12px;
+    width: 1230px;
+   margin-right: -400px;
+    
+}
+ .navbarmenu .active
+{
+    color: blue;
+   border-bottom:  solid blue;
+   padding: 12px;
+  
+}
+.card1
+{
+   width: 247px;
+ margin-left: 12px;
+  border: 2px solid  #b8babb;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card1:hover
+{
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+
+}
+.company{
+    display: flex;
+    gap: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.aboutC p
+{
+    padding: 1rem;
+}
+.course
+{
+    padding: 1rem;
+}
+.img img
+{
+    width: 170px;
+   margin-left: 32px;
+}
+.img
+{
+    border-radius: 12px;
+    border: 1px solid  #b8babb;
+    margin-top: 12px;
+    width: 220px;
+    margin-left: 12px;
+   
+}
+.company img{
+    width: 30px;
+    
+}
+.heading
+{
+    padding: 1rem;
+    margin-left: 106px;
+    
+}
+.cardsection
+{
+    display: flex;
+   gap: 12px;
+   margin-left: 102px;
+    
+}
+/* show more button */
+.showmore button
+{
+    padding: 9px 22px;
+    border-color: #3279dc;
+    background-color: white;
+    color: #0e68e7;
+    border-radius: 5px;
+}
+.showmore
+{
+    padding: 1rem;
+    margin-left: 100px;
+}
+.cards1
+{
+   display: flex;
+    border: 1px solid #b8babb;
+    width: 520px;
+    margin-top: 12px;
+     height: 268px;
+     border-radius: 5px;
+     
+    
+}
+.cards1 img{
+    height: 267px;
+    
+}
+.content
+{
+    line-height: 22px;
+   padding: 12px;
+  
+}
+.cards1 button
+{
+    padding: 9px 22px;
+    border-color: #3279dc;
+    background-color: white;
+    color: #3279dc;
+    border-radius: 8px;
+}
+.cardsection2
+{
+    display: flex;
+    gap: 22px;
+    margin-left: 115px;
+    margin-top: 12px;
+    
+}
+/* category */
+.heading2
+{
+    margin-top: 32px;
+    color: rgb(62, 58, 58);
+    font-size: 24px;
+    margin-left: 110px;
+}
+
+.cat1
+{
+    margin-top: 14px;
+    background-color: #00255d;
+    padding: 1.4rem;
+    align-items: center;
+    width: 529px;
+    color: white;
+    border-radius: 13px;
+}
+.categories1
+{
+    display: flex;
+    gap: 12px;
+    margin-left: 107px;
+}
+.categories{
+    line-height: 32px;
+}
+/* Footer */
+
+footer
+{
+    display: flex;
+    padding: 3rem 6rem;
+   gap: 150px;
+}
+.h1items
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    
+}
+
+  .h1items a{
+    text-decoration: none;
+    color: rgb(93, 85, 85);
+    font-size: 14px;
+    line-height: 26px;
+    
+  }
+  .img1 img
+  {
+    width: 152px;
+    padding: 12px;
+    
+    
+  }
+ .downloadimg
+ {
+    margin-top: 32px;
+ }
+ .h1items a:hover
+ {
+    text-decoration: underline;
+ }
+ .footer2
+ {
+    display: flex;
+    gap: 39rem;
+    padding: 1rem 1rem;
+ }
+ .socialicon i
+ {
+    font-size: 33px;
+    margin: 8px;
+ }
+ .copyright p
+ {
+    font-size: 14px;
+ }
+ /* dropdown */
+ .exploremenu
+ {
+    position: absolute;
+    background-color: white;
+    width: 330px;
+    color: black;
+    margin-top: 16px;
+    left: 42px;
+   text-align: left;
+   padding: 1rem;
+   overflow-y: scroll;
+   transform: translateX(-55%);
+   display: none;
+   max-height: 500px;
+   
+  
+ }
+ .exploremenu a
+ {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    font-size: 15px;
+    
+    
+ }
+ .exploremenu h3
+ {
+    margin-top: 22px;
+   
+   
+ }
+ .submenu2 button
+ {
+    padding: 9px 22px;
+    border-color: #3279dc;
+    background-color: white;
+    color: #3279dc;
+    border-radius: 8px;
+    margin-top: 32px;
+ }
+ .submenu2
+ {
+    margin-top: 32px;
+ }
+
+.dropdown
+{
+    position: absolute;
+   margin-top: 25rem;
+transform: translateX(-80%);
+background-color: white;
+border: 1px solid rgb(241, 234, 234);
+display: none;
+width: 222px;
+
+
+
+
+   
+}
+.dropdown a
+{
+    text-decoration: none;
+    padding: 13px;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   font-size: 15px;
+   
+   
+}
+.dropdown a:hover
+{
+    background-color: #F0F0F0;
+}
+.show
+{
+    display: block;
+   
+}
+.hide
+{
+    display: none;
+}
+.maindiv
+{
+    margin-top: 6rem;
+}
+.footer2
+{
+    align-items: center;
+}
+
