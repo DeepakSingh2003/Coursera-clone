@@ -1,11 +1,3 @@
-//user section menu
-let usersection = document.getElementsByClassName("usersection")[0];
-let dropdown = document.getElementsByClassName("dropdown")[0];
-usersection.addEventListener("click", function () {
-  dropdown.classList.toggle("show");
-  navbarmenu.style.zIndex = "0";
-});
-
 // explore dropdown
 let explore = document.getElementsByClassName("explore2")[0];
 let exploremenu = document.getElementsByClassName("exploremenu")[0];
@@ -27,4 +19,11 @@ exploremenu.addEventListener("mouseleave", function () {
   maindiv.style.opacity = "1";
   navbarmenu.style.opacity = "1";
   navbarmenu.style.zIndex = "1";
+});
+//user section menu
+let usersection = document.getElementsByClassName("usersection")[0];
+let dropdown = document.getElementsByClassName("dropdown")[0];
+usersection.addEventListener("click", function () {
+  dropdown.classList.toggle("show");
+  navbarmenu.style.zIndex = "0";
 });
